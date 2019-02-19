@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     lazy var persistentContainer: NSPersistentContainer = {
         
-        let container = NSPersistentContainer(name: "Movies.Lib")
+        let container = NSPersistentContainer(name: "MoviesLib")
         container.loadPersistentStores(completionHandler: {
             (storeDesctiption, error) in
         })
