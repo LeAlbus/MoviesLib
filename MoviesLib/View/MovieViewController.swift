@@ -30,7 +30,7 @@ class MovieDetailsViewController: UIViewController {
 
             self.titleLabel.text = currentMovie.title
             self.categoriesLabel.text = currentMovie.categories
-            self.ratingLabel.text = "⭐️\(currentMovie.rating)/10"
+            self.ratingLabel.text = "⭐️\(currentMovie.rating)/10.0"
             self.durationLabel.text = currentMovie.duration
             //self.posterImageView.image = UIImage(named: currentMovie.image)
             self.sinopseText.text = currentMovie.summary
