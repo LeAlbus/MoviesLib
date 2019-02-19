@@ -26,7 +26,7 @@ class MoviewCellTableViewCell: UITableViewCell {
     }
     
     func prepare(with movie: Movie){
-        ivPoster.image = UIImage(named: movie.image)
+       // ivPoster.image = UIImage(named: movie.image)
         lbTitle.text = movie.title
         lbNota.text = "⭐️\(movie.rating)/10"
         lbSinose.text = movie.summary

@@ -27,14 +27,13 @@ class MovieDetailsViewController: UIViewController {
     private func setup() {
         
         if let currentMovie = movie {
-            
+
             self.titleLabel.text = currentMovie.title
             self.categoriesLabel.text = currentMovie.categories
             self.ratingLabel.text = "⭐️\(currentMovie.rating)/10"
             self.durationLabel.text = currentMovie.duration
-            self.posterImageView.image = UIImage(named: currentMovie.image)
+            //self.posterImageView.image = UIImage(named: currentMovie.image)
             self.sinopseText.text = currentMovie.summary
         }
     }
 }
-
